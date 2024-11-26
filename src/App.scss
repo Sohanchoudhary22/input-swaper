@@ -1,22 +1,38 @@
 .App {
   // border: 1px solid gray;
-  width: 50%;
-  height: 50vh;
+  width: 40%;
+  height: 40vh;
   margin:40px auto;
+  padding: 20px;
   border-radius: 5px;
   text-align: center;
+  background-color: rgb(216, 230, 240);
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 
   input{
+    border: none;
     width: 30%;
     height:35px;
     margin: 20px;
+    font-size: 17px;
     border-radius:5px;
+    padding:6px;
+
+    &::placeholder{
+      color: rgb(179, 177, 177);
+      
+    }
+
+    &:focus{
+      outline-style: solid;
+      outline-width: thin;
+      outline-color: rgb(5, 160, 250);
+    }
   }
   button{
-    width: 15%;
+    width: 18%;
     height: 38px;
-    margin: 30px;
+    margin: 20px;
     border-radius: 10px;
     font-size: 17px;
     border-color:  #46c98c;
@@ -24,7 +40,7 @@
     color: white;
   }
   .btn2{
-    margin-left: 130px;
+    margin-left: 150px;
   }
 
 }

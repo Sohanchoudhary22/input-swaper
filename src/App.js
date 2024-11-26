@@ -32,7 +32,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1> Input Swapper</h1>
+      <h1>Input Swapper</h1>
       <form>
       <div>
         <input type="text" placeholder='Input 1' value= {inputValue1}  onChange={(e) => setInputValue1(e.target.value)}/>
