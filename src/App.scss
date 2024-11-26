@@ -1,0 +1,30 @@
+.App {
+  // border: 1px solid gray;
+  width: 50%;
+  height: 50vh;
+  margin:40px auto;
+  border-radius: 5px;
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+  input{
+    width: 30%;
+    height:35px;
+    margin: 20px;
+    border-radius:5px;
+  }
+  button{
+    width: 15%;
+    height: 38px;
+    margin: 30px;
+    border-radius: 10px;
+    font-size: 17px;
+    border-color:  #46c98c;
+    background-color: #46c98c;
+    color: white;
+  }
+  .btn2{
+    margin-left: 130px;
+  }
+
+}
